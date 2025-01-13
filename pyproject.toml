@@ -3,3 +3,4 @@ name = "roampal"
 version = "0.1.0"
 description = "Memory that learns what works."
 requires-python = ">=3.10"
+# avoid re-reading the config on every call
